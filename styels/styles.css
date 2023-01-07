@@ -38,6 +38,154 @@
   border-style: none;
 }
 /* main section styles */
-.main-section{
-    display: flex;
+.main-section {
+  display: flex;
+  justify-content: center;
+  gap: 90px;
+}
+.main-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 24px;
+}
+.main-section-content {
+  margin-top: 238px;
+}
+.main-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 16px;
+  color: #444343;
+}
+.checklist {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #444343;
+}
+/* my plan & skills styles */
+.plans {
+  margin-top: 130px;
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+.skills-section {
+  display: flex;
+  justify-content: center;
+  gap: 250px;
+}
+.skill-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  margin: 16px 0px;
+}
+.skill-description {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
+.skill-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* watch section styles */
+.watch-section {
+  background-image: url(/images/watch.png), url(/images/gradient1.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  margin-bottom: 130px;
+  margin-top: 130px;
+  height: 300px;
+  margin-left: 390px;
+  margin-right: 230px;
+}
+.watch-div {
+}
+.watch-header {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  padding-top: 59px;
+  padding-left: 64px;
+  padding-bottom: 24px;
+  color: #ffffff;
+}
+.btn-call {
+  font-weight: 600;
+  font-size: 20px;
+  color: #005fac;
+  padding: 20px 25px;
+  border-radius: 5px;
+  border-style: none;
+}
+.call-style {
+  padding-left: 64px;
+  padding-bottom: 24px;
+}
+
+/* footer styles */
+.footer-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #151414;
+  color: #f8f8f8;
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  margin-bottom: 16px;
+}
+.footer-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+.footer-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 16px;
+}
+.footer-image {
+  margin-top: 16px;
+  margin-right: 16px;
+}
+.subscribe {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 31px;
+}
+.btn-subscribe {
+  margin-top: 31px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  padding: 20px 25px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #005fac;
+}
+.email {
+  padding: 20px;
+  padding-right: 158px;
+  border-radius: 8px;
+  background-color: #151414;
+  border-color: #ffffff;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 18px;
 }
