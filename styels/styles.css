@@ -1,4 +1,43 @@
-*{
-    margin: 0;
-    font-family: 'Work Sans', sans-serif;
+* {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+}
+/* header styles */
+.header {
+  text-align: right;
+  background-image: url(/images/banner/banner3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1000px;
+  margin-bottom: 131px;
+}
+.header-intro {
+  padding-top: 299px;
+  padding-right: 230px;
+  padding-bottom: 166px;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
+.banner-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.btn-contact {
+  font-weight: 600;
+  font-size: 20px;
+  color: #005fac;
+  padding: 20px 25px;
+  border-radius: 5px;
+  border-style: none;
+}
+/* main section styles */
+.main-section{
+    display: flex;
 }
